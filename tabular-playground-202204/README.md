@@ -97,3 +97,20 @@ EDAでは、通常、データの主成分を分析します。しかし、今�
 * EDAを理解した上で基本的に2つの選択肢がある
 * ニューラルネットワークを構築する
 * 特徴量エンジニアリングとgradient boostingで構築する
+
+
+# 2022/04/07
+* train.csv: 約1,000人の実験参加者の13種類の生体センサーを60秒間記録した約26,000件のトレーニングセット
+* train_labels.csv: 各シーケンスのクラスラベル
+* test.csv: テストセット．約12,000個の配列のそれぞれについて、その配列の状態の値を予測する必要がある
+* このコンペの目的は何か
+    * 目的
+        * What: 参加者の活動状態を判別する(0 or 1)
+        * When: 60秒間で計測されたデータ
+        * Where: -
+        * Who: 数百人の参加者
+        * Why: -
+        * How: 13個のセンサデータをもとに
+
+* first submission
+    * https://www.kaggle.com/code/hikarumoriya/simple-eda-and-predict-with-lightgbm

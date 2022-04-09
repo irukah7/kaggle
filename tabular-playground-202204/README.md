@@ -114,3 +114,12 @@ EDAでは、通常、データの主成分を分析します。しかし、今�
 
 * first submission
     * https://www.kaggle.com/code/hikarumoriya/simple-eda-and-predict-with-lightgbm
+
+# 2022/04/08
+* 公開NotebookのEDAとlightGBMを用いてsubmissionまで実行した
+* tabular-playground-202204/simple-eda-and-predict-with-lightgbm.ipynb
+
+# 2022/04/09
+* Discussion, Notebookから得た情報をもとに日本語、英語のコメントをつけたNotebookを公開したら初めて銅メダルを獲得できた
+* イチからコードを書いてオリジナルのソース・アルゴリズムを記述したわけではないが嬉しいしモチベーションにつながる
+* ソースを書いて1行ずつ解釈していくうちに自然とモデリングできるようになっているのが望ましい

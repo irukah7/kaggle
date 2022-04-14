@@ -198,3 +198,8 @@ ROC曲線を作成した時に、グラフの下の部分の面積をAUC（Area 
 * ROC曲線描画の参考になりそうなNotebook
     * https://www.kaggle.com/code/ambrosm/tpsapr22-best-model-without-nn
     * https://www.kaggle.com/code/aboriginal3153/tps-apr-22-neural-network-using-pytorch
+
+# 2022/04/14
+* ROC曲線のプロットしたNotebookの読む
+* lgbmによるroc, rmseの評価方法↓
+* https://ryucoding.com/programming/evaluate-method-lightgbm

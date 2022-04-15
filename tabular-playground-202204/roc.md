@@ -126,4 +126,21 @@ print((y_score >= 0.5).astype(int))
 # [0 0 1 1 0 1 1 1]
 ```
 
+0 or 1の判定結果が得られると、それを正解クラスと比較することでFPRやTPRを算出できる。
+* FPR: flase oisitive rate（偽陽性率）
+    * 陰性を間違って陽性と判定した割合
+        * 小さい方がいい
+    * `FPR = FP / (FP + TN)`
+* TPR: true positive rate（真陽性率）
+    * 陽性を正しく陽性と判定した割合
+        * 大きい方がいい
+    * recall(再現率)やsensitivity, hit rateなどとも呼ばれる
+    * `TPR = TP / (TP + FN)`
+
+ここでTP, TN, FP, FNの意味は以下の通り。それぞれの個数からFPR, TPRを算出する
+* 真陽性（TP: True Positive）: 実際のクラスが陽性で予測も陽性（正解）
+* 真陰性（TN: True Negative）: 実際のクラスが陰性で予測も陰性（正解）
+* 偽陽性（FP: False Positive）: 実際のクラスは陰性で予測が陽性（不正解）
+* 偽陰性（FN: False Negative）: 実際のクラスは陽性で予測が陰性（不正解）
+
 参考(模写) -> https://note.nkmk.me/python-sklearn-roc-curve-auc-score/

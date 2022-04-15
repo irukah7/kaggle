@@ -203,3 +203,7 @@ ROC曲線を作成した時に、グラフの下の部分の面積をAUC（Area 
 * ROC曲線のプロットしたNotebookの読む
 * lgbmによるroc, rmseの評価方法↓
 * https://ryucoding.com/programming/evaluate-method-lightgbm
+
+# 2022/04/15
+* roc.mdの記述
+* ROC曲線・AUCについて詳しく記述した

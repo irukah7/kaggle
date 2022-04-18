@@ -210,3 +210,17 @@ ROC曲線を作成した時に、グラフの下の部分の面積をAUC（Area 
 
 # 2022/04/16
 * 翌日応用情報処理試験なのでお休み
+
+# 2022/04/18
+#### 特徴量エンジニアリングの失敗例6選
+* https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/318527
+
+1. 創造性が足りない。センサーの平均値、中央値、最小値、最大値、標準偏差で集計しているが今の競技で上位を取るにはこの情報だけでは不十分。平均値、標準偏差に次いで歪度・尖度も試してみるのが自然。歪度は今回はあまり機能していないがsensor_04の尖度が重要な機能となりそう（？）
+
+![](2022-04-18-13-39-57.png)
+
+2. 集計項目が重なる。
+3. 特徴量選択がない。モデルに多くの特徴を与えすぎるとスコアが悪化する。sequential feature selection？permutation feature selection？を利用すると結構いいらしい。
+4. 被験者のシーケンス情報を使わない。特徴量としてはあまり良くない。
+5. クロスバリデーションにおけるデータリーク(機械学習で入ってはいけないデータが混入する)。KfoldやStratifiedKfoldは使わない。今回のコンペではtrainとtestの被験者がバラバラなので、モデルが見た事のない被験者にも汎化できることを検証する必要がある。GroupKfoldで`groups=train.subject`とすることでtrainに登場しない被験者から検証セットを構成することができる。
+6. ランダムフォレスト分類器(RandomForestClassifier)。ランダムフォレストはいい結果が出やすい。gbdt(gradient boosted decision trees)より良いかも。HistGradientBoostingClassifier, XGBoost, CatBoost, LightGBMから好きなものを選べる。

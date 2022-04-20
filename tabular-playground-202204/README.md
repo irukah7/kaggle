@@ -224,3 +224,17 @@ ROC曲線を作成した時に、グラフの下の部分の面積をAUC（Area 
 4. 被験者のシーケンス情報を使わない。特徴量としてはあまり良くない。
 5. クロスバリデーションにおけるデータリーク(機械学習で入ってはいけないデータが混入する)。KfoldやStratifiedKfoldは使わない。今回のコンペではtrainとtestの被験者がバラバラなので、モデルが見た事のない被験者にも汎化できることを検証する必要がある。GroupKfoldで`groups=train.subject`とすることでtrainに登場しない被験者から検証セットを構成することができる。
 6. ランダムフォレスト分類器(RandomForestClassifier)。ランダムフォレストはいい結果が出やすい。gbdt(gradient boosted decision trees)より良いかも。HistGradientBoostingClassifier, XGBoost, CatBoost, LightGBMから好きなものを選べる。
+
+# 2022/04/19
+* roc.mdの更新(超大作になってきた)
+
+# 2022/04/20
+* Kaggleで正規化したデータフレームの作成
+    * 平均値
+    * 中央値
+    * 最小値
+    * 最大値
+    * 標準偏差
+    * 歪度
+    * 尖度
+    * lgbm

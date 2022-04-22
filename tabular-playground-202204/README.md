@@ -244,3 +244,8 @@ ROC曲線を作成した時に、グラフの下の部分の面積をAUC（Area 
 * 尖度の求め方は`df.kurt()`ではない。
     * `df.apply(pd.DataFrame.kurt)`とする必要がある
 * lightgbmはKaggleスタートブックに喜寿していた`train_test_split`を使用する方法で書いた
+
+# 2022/04/22
+* 昨日一昨日書いたnotebookの提出
+* 結果は精度の低いスコアになった
+![](2022-04-22-17-21-04.png)

@@ -249,3 +249,8 @@ ROC曲線を作成した時に、グラフの下の部分の面積をAUC（Area 
 * 昨日一昨日書いたnotebookの提出
 * 結果は精度の低いスコアになった
 ![](2022-04-22-17-21-04.png)
+
+# 2022/04/23
+* Discussion
+    * LGBMの参考になりそうなNotebook
+    * https://www.kaggle.com/code/hasanbasriakcay/tpsapr22-optuna-lgbm-blend

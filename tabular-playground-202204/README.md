@@ -254,3 +254,8 @@ ROC曲線を作成した時に、グラフの下の部分の面積をAUC（Area 
 * Discussion
     * LGBMの参考になりそうなNotebook
     * https://www.kaggle.com/code/hasanbasriakcay/tpsapr22-optuna-lgbm-blend
+
+# 2022/04/24
+* 平均値や標準偏差など基本的な指標を使って80％超えのスコアを叩き出したNoteboook
+    * https://www.kaggle.com/code/himankkavathekar/basic-signal-stats-rf-model
+    * 求め方等参考になりそう

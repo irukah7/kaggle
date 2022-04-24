@@ -259,3 +259,12 @@ ROC曲線を作成した時に、グラフの下の部分の面積をAUC（Area 
 * 平均値や標準偏差など基本的な指標を使って80％超えのスコアを叩き出したNoteboook
     * https://www.kaggle.com/code/himankkavathekar/basic-signal-stats-rf-model
     * 求め方等参考になりそう
+* 4/22に提出した精度の低いNotebookを改善する
+    * 本コンペは外れ値の多いデータなので外れ値を除外してみる
+    * 外れ値の除外をするだけで結構スコアが良くなった
+    * どのくらい外れ値を除外するのが正しいのかも検討する必要がある
+    * ![](2022-04-24-22-56-11.png)
+    * 外れ値を除外するのではなく中央値`df.median()`で補間してみると多少スコアが上がった
+    * ![](2022-04-24-23-15-08.png)
+    * https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/submissions
+    * 四分位数の範囲の決め方と補間方法で多少スコアが向上しそう

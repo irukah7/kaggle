@@ -292,3 +292,8 @@ ROC曲線を作成した時に、グラフの下の部分の面積をAUC（Area 
 
 # 2022/04/27
 * train_labelsとdf_trの一致したsequenceを取得したい
+    * `train_labels = pd.merge(train_labels, df_train)`で行けた
+
+# 2022/04/28
+* PyTorchを使ったLSTM
+    * https://www.kaggle.com/code/matthewszhang/lstm-with-pytorch-and-groupkfold

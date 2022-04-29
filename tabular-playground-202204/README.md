@@ -297,3 +297,7 @@ ROC曲線を作成した時に、グラフの下の部分の面積をAUC（Area 
 # 2022/04/28
 * PyTorchを使ったLSTM
     * https://www.kaggle.com/code/matthewszhang/lstm-with-pytorch-and-groupkfold
+
+# 2022/04/29
+* コンペは終わるけど色々な手法を紹介している記事を発見
+    * https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/319427

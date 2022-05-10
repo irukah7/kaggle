@@ -7,3 +7,7 @@
 # 5/9
 * pandas profileを使ってデータの調査
 * どんなデータが与えられているか確認
+
+# 5/10
+* Get Started EDA
+* https://www.kaggle.com/code/calebreigada/getting-started-eda-preprocessing

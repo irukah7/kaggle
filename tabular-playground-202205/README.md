@@ -11,3 +11,8 @@
 # 5/10
 * Get Started EDA
 * https://www.kaggle.com/code/calebreigada/getting-started-eda-preprocessing
+
+# 5/11
+* 日本語のEDA
+* PyTorchを使ったニューラルネットワーク
+* https://www.kaggle.com/code/aboriginal3153/ver-tps-mar-22-neural-network-with-pytorch

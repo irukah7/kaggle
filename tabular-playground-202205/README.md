@@ -16,3 +16,12 @@
 * 日本語のEDA
 * PyTorchを使ったニューラルネットワーク
 * https://www.kaggle.com/code/aboriginal3153/ver-tps-mar-22-neural-network-with-pytorch
+
+# 5/12
+* LightGBMの初回submit
+* https://www.kaggle.com/code/hikarumoriya/simple-lightgbm
+* ![](2022-05-12-21-46-42.png)
+* Score: 0.9299 (LB Score: 0.99830)
+* こちらもニューラルネットワークだけど分かりやすいNoteBook
+    * https://www.kaggle.com/code/kellibelcher/tps-may-2022-eda-lgbm-neural-networks
+* matplotlibでf_00からf_30までのデータをヒストグラム化

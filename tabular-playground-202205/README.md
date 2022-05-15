@@ -25,3 +25,8 @@
 * こちらもニューラルネットワークだけど分かりやすいNoteBook
     * https://www.kaggle.com/code/kellibelcher/tps-may-2022-eda-lgbm-neural-networks
 * matplotlibでf_00からf_30までのデータをヒストグラム化
+
+ # 5/15
+ * matplotlibでf_00からf_30までのデータをヒストグラム化する
+   * plot.showが処理遅くてグラフがプロットできない
+     * 描画に時間がかかる？

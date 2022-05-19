@@ -57,4 +57,7 @@ Interaction vs Correlationのトピックで、@wti200は、特徴空間のあ�
   * https://www.kaggle.com/code/calebreigada/getting-started-eda-preprocessing
 
 # 5/18
+* pandas100本ノック(50/100)
+
+# 5/19
 * pandas100本ノック

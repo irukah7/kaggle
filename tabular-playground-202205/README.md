@@ -61,3 +61,11 @@ Interaction vs Correlationのトピックで、@wti200は、特徴空間のあ�
 
 # 5/19
 * pandas100本ノック(60/100)
+
+# 5/20
+* Notebook
+  * 日本語表記もあり分かりやすいNotebook
+  * https://www.kaggle.com/code/akioonodera/tps-may2022-lgbm-binary
+* Discussion
+  * クロスバリデーションのアドバイス参考になりそう
+  * https://www.kaggle.com/competitions/tabular-playground-series-may-2022/discussion/323417

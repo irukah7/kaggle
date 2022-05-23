@@ -69,3 +69,11 @@ Interaction vs Correlationのトピックで、@wti200は、特徴空間のあ�
 * Discussion
   * クロスバリデーションのアドバイス参考になりそう
   * https://www.kaggle.com/competitions/tabular-playground-series-may-2022/discussion/323417
+
+# 5/22
+* 日本語訳して実行してみる
+  * https://www.kaggle.com/code/hasanbasriakcay/tpsmay22-insightful-eda-fe-baseline
+
+# 5/23
+* 昨日の日本語訳↓
+* https://www.kaggle.com/hikarumoriya/tpsmay22-insightful-eda/edit

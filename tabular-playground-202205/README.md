@@ -77,3 +77,17 @@ Interaction vs Correlationのトピックで、@wti200は、特徴空間のあ�
 # 5/23
 * 昨日の日本語訳↓
 * https://www.kaggle.com/hikarumoriya/tpsmay22-insightful-eda/edit
+
+# 5/26
+* LabelEncoderとLightGBMだけを用いた簡単な結果提出
+* https://www.kaggle.com/code/hikarumoriya/notebook13a4668386?scriptVersionId=96620236
+* ![](2022-05-26-16-31-32.png)
+* lgbmの`num_boost_round`を1000回から1500回に増やした時制度はどのくらい変わるのか試してみた
+  * 0.92264 -> 0.92560
+  * 0.03だけ精度が向上した
+  * ![](2022-05-26-16-51-33.png)
+* lgbmの`num_boost_round`を1500回から2000回に増やした時制度はどのくらい変わるのか試してみた
+  * 0.92560 -> 0.92758
+  * 0.02だけ精度向上
+  * ![](2022-05-26-16-57-19.png)
+* 少しずつだが制度は上がっている

@@ -91,3 +91,64 @@ Interaction vs Correlationのトピックで、@wti200は、特徴空間のあ�
   * 0.02だけ精度向上
   * ![](2022-05-26-16-57-19.png)
 * 少しずつだが精度は上がっている
+
+# 5/27
+## 現状の学習内容
+
+f_27の特徴をLabelEncodeして`f_01`〜`f_30`をfeature(説明変数)、`target`をtarget(目的変数)とした。
+sklearnの`train_test_split`を使って訓練用とテスト用にデータ分割した。`test_size`を0.3にして訓練：テスト = 7 : 3に分けた。
+* 訓練データ：一般的にX_train, y_trainで定義することが多い
+* テストデータ：一般的にX_test, y_testで定義することが多い
+* ![](2022-05-27-15-50-36.png)
+
+(↑一度学習したデータをテストしても意味がない、答えを覚えてしまっているから。
+
+このように学習で用いていないデータを利用することでモデルの精度を測定する。なので機械学習では学習用とテスト用のデータが必要になる)
+
+次にLGBMを用いて勾配ブースティングをする。
+
+まずはLightGBMに訓練用よテスト(検証)用データをセットする。
+ここで検証用として扱うのであればDatasetに`reference=lgb_train`を追加する必要がある。
+```
+lgb_train = lgb.Dataset(train_X, train_y)
+lgb_test = lgb.Dataset(test_x, test_y, reference=lgb_train)
+```
+
+#### LightGBMのハイパパラメータを設定する
+（設定できるパラメータはたくさんある→ https://lightgbm.readthedocs.io/en/latest/Parameters.html ）
+
+```python
+params = {'task': 'train',              # タスクを訓練に設定
+          'boosting_type': 'gbdt',      # GBDTを指定
+          'objective': 'multiclass',    # 多クラス分類を指定
+          'metric': {'multi_logloss'},  # 多クラス分類の損失（誤差）
+          'num_class': 3,               # クラスの数（irisデータセットが3個のクラスなので）
+          'learning_rate': 0.1,         # 学習率
+          'num_leaves': 21,             # ノードの数
+          'min_data_in_leaf': 3,        # 決定木ノードの最小データ数
+          'num_iteration': 100}         # 予測器(決定木)の数:イタレーション
+```
+
+なお、今回は簡易的なので`metric`だけを`rmse`に指定した。
+
+#### LightGBMで学習する
+LightGBMでは`lgb.train`で訓練を行う。
+
+```python
+model = lgb.train(params=params,                    # ハイパーパラメータをセット
+                  train_set=lgb_train,              # 訓練データを訓練用にセット
+                  valid_sets=[lgb_train, lgb_test], # 訓練データとテストデータをセット
+                  valid_names=['Train', 'Test'],    # データセットの名前をそれぞれ設定
+                  num_boost_round=100,              # 計算回数
+                  early_stopping_rounds=10,         # 学習が収束した時に自動的に学習を止めてくれる
+                  evals_result=lgb_results)         # 履歴を保存する
+```
+
+最良の予測器が得られたイタレーション数を予測値に入れる。
+```python
+y_pred = model.predict(X_test, num_iteration=model.best_iteration)
+```
+
+以上で予測値を求めることができた。
+
+---

@@ -168,3 +168,7 @@ y_pred = model.predict(X_test, num_iteration=model.best_iteration)
 * targetを[0, 1]の2値に変換して提出するとスコアに影響があるか確認してみた
   * 2値変換する前と比べてだいぶスコアが落ちたのでやめた方が良さそう。
   * ![](2022-05-30-06-45-30.png)
+
+# 5/31
+* 理解しやすいコードあったので真似て提出
+  * https://www.kaggle.com/code/vvekparmar/tabular-playground-series-may2022

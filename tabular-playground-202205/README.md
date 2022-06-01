@@ -172,3 +172,7 @@ y_pred = model.predict(X_test, num_iteration=model.best_iteration)
 # 5/31
 * 理解しやすいコードあったので真似て提出
   * https://www.kaggle.com/code/vvekparmar/tabular-playground-series-may2022
+  * 学習率を0.1 → 0.01に下げるだけでスコアが0.2変わった。(0.1の方が良い)
+  * ![](2022-05-31-10-08-22.png)
+
+このコードは唯一カテゴリ変数である`f_27`カラムに着目している。文字数10からなるこのカラムを1つずつ分解し、それぞれのアルファベットに数値付けをしている。数値はA:1, B:2, ....と順に付けている。さらに、countA ~ countT (A~Tの文字列なのでTまで)のカラムを作成して文字数をカウントしている。

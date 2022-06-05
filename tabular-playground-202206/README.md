@@ -32,3 +32,8 @@
         * 最尤推定量法
         * 多重代入法
         * ファンシーインピュテーション：MICE
+
+# 6/5
+* Disucussion
+    * https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/328369
+    * 今回の課題はどのようなものか、どんな解決策が挙げられるか、コメントを通して探していくdiscussion

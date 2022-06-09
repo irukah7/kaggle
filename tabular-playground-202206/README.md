@@ -68,3 +68,15 @@ test_df = df[df["F_1_0"].isna()]
 * 全てを平均値で代入したものを提出
     * 精度はだいぶ低い
     * ![](2022-06-08-23-17-14.png)
+
+# 6/9
+* 現在Most VotesであるNotebookosを見て日本語訳してみる
+* オリジナル記事 >> https://www.kaggle.com/code/abdulravoofshaik/quick-eda-and-missing-values-tutorial
+* 日本語訳 >> https://www.kaggle.com/hikarumoriya/quick-eda-and-missing-values-tutorial/edit
+
+
+## 実装したい
+* 目標： 欠損値に適切な値を入れる
+* 方法: 線形回帰モデルを用いる
+    * 本課題を回帰問題として扱い、それを解くアプローチをする
+    * ex) F_1_0列をターゲットとし、他の列を使ってこの列を予測する

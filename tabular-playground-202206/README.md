@@ -74,6 +74,8 @@ test_df = df[df["F_1_0"].isna()]
 * オリジナル記事 >> https://www.kaggle.com/code/abdulravoofshaik/quick-eda-and-missing-values-tutorial
 * 日本語訳 >> https://www.kaggle.com/hikarumoriya/quick-eda-and-missing-values-tutorial/edit
 
+# 6/12
+* 日本語訳完成 >> https://www.kaggle.com/hikarumoriya/quick-eda-and-missing-values-tutorial/edit
 
 ## 実装したい
 * 目標： 欠損値に適切な値を入れる

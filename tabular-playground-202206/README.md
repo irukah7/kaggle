@@ -77,8 +77,16 @@ test_df = df[df["F_1_0"].isna()]
 # 6/12
 * 日本語訳完成 >> https://www.kaggle.com/hikarumoriya/quick-eda-and-missing-values-tutorial/edit
 
+* 回帰モデル作成途中にエラーが出て、「これを見たら良いかも」というようなメッセージが表示された。
+    * imputation問題のチュートリアル
+    * https://www.kaggle.com/code/dansbecker/handling-missing-values/notebook
+
 ## 実装したい
+
+### 1. 線形回帰を用いる
 * 目標： 欠損値に適切な値を入れる
 * 方法: 線形回帰モデルを用いる
     * 本課題を回帰問題として扱い、それを解くアプローチをする
     * ex) F_1_0列をターゲットとし、他の列を使ってこの列を予測する
+
+### 2. 相関係数の高いカラムを利用して代入する

@@ -100,6 +100,9 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
 
 ![](2022-06-14-20-51-31.png)
 
+* 上記のf1~f4でそれぞれ学習したモデルを作成した。
+* https://www.kaggle.com/code/hikarumoriya/linear-regression-model/edit
+
 ## 実装したい
 
 ### 1. 線形回帰を用いる

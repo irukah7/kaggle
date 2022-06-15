@@ -103,6 +103,13 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
 * 上記のf1~f4でそれぞれ学習したモデルを作成した。
 * https://www.kaggle.com/code/hikarumoriya/linear-regression-model/edit
 
+# 06/15
+* 日本語のNotebooks
+    * EDA with LGBM
+    * 各特徴量(カラム)を具体的に分析している
+    * 日本語なのでわかりやすい
+    * https://www.kaggle.com/code/akioonodera/tps-jun2022-lgbm-regression
+
 ## 実装したい
 
 ### 1. 線形回帰を用いる

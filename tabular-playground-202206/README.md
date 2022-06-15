@@ -110,6 +110,8 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
     * 日本語なのでわかりやすい
     * https://www.kaggle.com/code/akioonodera/tps-jun2022-lgbm-regression
 
+* 参考になりそうなので模写コーディング
+* https://www.kaggle.com/hikarumoriya/eda-and-lgbm/edit
 ## 実装したい
 
 ### 1. 線形回帰を用いる

@@ -112,6 +112,17 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
 
 * 参考になりそうなので模写コーディング
 * https://www.kaggle.com/hikarumoriya/eda-and-lgbm/edit
+
+# 6/16
+### 昨日の模写コーディング終了
+学習時間が約10~12時間なので長い。optunaでパラメータを決めて一旦jsonファイルを作成する(dump)。dumpしたjsonファイルをfor文で回してトレーニングする。jsonファイルに格納されているoptunaで決めたパラメータを取り出してlgb.trainをする。  
+特徴量分処理するので長い。。  
+
+* もう一つの[線形回帰モデル](https://www.kaggle.com/code/hikarumoriya/linear-regression-model)の結果を
+    * 6/14に記載したやり方のモデル
+    * f1~f4でそれぞれ学習したモデル
+    * ![](2022-06-16-22-20-36.png)
+
 ## 実装したい
 
 ### 1. 線形回帰を用いる

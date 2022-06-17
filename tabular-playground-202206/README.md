@@ -115,7 +115,7 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
 
 # 6/16
 ### 昨日の模写コーディング終了
-学習時間が約10~12時間なので長い。optunaでパラメータを決めて一旦jsonファイルを作成する(dump)。dumpしたjsonファイルをfor文で回してトレーニングする。jsonファイルに格納されているoptunaで決めたパラメータを取り出してlgb.trainをする。  
+学習時間が約10~12時間なので長い。optunaでパラメータを決めて一旦jsonファイルを作成する(dump)。dumpしたjsonファイルをfor文で回してトレーニングする。jsonファイルに格納されているoptunaで決めたパラメータを取り出してlgb.trainの引数としてパラメータを割り当てる。  
 特徴量分処理するので長い。。  
 
 * もう一つの[線形回帰モデル](https://www.kaggle.com/code/hikarumoriya/linear-regression-model)の結果を
@@ -123,12 +123,8 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
     * f1~f4でそれぞれ学習したモデル
     * ![](2022-06-16-22-20-36.png)
 
-## 実装したい
-
-### 1. 線形回帰を用いる
-* 目標： 欠損値に適切な値を入れる
-* 方法: 線形回帰モデルを用いる
-    * 本課題を回帰問題として扱い、それを解くアプローチをする
-    * ex) F_1_0列をターゲットとし、他の列を使ってこの列を予測する
-
-### 2. 相関係数の高いカラムを利用して代入する
+# 6/17
+* JUNE 2022 TPS: Quick Overview
+* わかりやすそうなので日本語訳する↓
+* https://www.kaggle.com/code/desalegngeb/june-2022-tps-quick-overview
+* https://www.kaggle.com/code/m1y7k8/tps-jun-2022-eda-imputation-interpolation

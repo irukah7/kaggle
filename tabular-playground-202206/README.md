@@ -128,3 +128,8 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
 * わかりやすそうなので日本語訳する↓
 * https://www.kaggle.com/code/desalegngeb/june-2022-tps-quick-overview
 * https://www.kaggle.com/code/m1y7k8/tps-jun-2022-eda-imputation-interpolation
+
+# 6/19
+* 良Notebookの紹介
+    * ここに載ってあるNotebookを一通り見てみる
+    * https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/328366

@@ -134,5 +134,6 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
     * ここに載ってあるNotebookを一通り見てみる
     * https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/328366
 
-# 6/20、6/21
+# 6/20、6/21、6/22
 * 6/17で日本語訳したもの⇨ https://www.kaggle.com/code/hikarumoriya/tps-june-22-quick-overview-modelling-using-xgb/edit
+* 6/17で日本語訳したもの⇨ https://www.kaggle.com/code/m1y7k8/tps-jun-2022-eda-imputation-interpolation

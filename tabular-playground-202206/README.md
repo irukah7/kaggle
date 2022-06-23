@@ -136,4 +136,13 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
 
 # 6/20、6/21、6/22
 * 6/17で日本語訳したもの⇨ https://www.kaggle.com/code/hikarumoriya/tps-june-22-quick-overview-modelling-using-xgb/edit
-* 6/17で日本語訳したもの⇨ https://www.kaggle.com/code/m1y7k8/tps-jun-2022-eda-imputation-interpolation
+* 6/17で日本語訳したもの⇨ https://www.kaggle.com/code/hikarumoriya/tps-jun-2022-eda-imputation-interpolation/edit
+
+# 06/23
+* Discussion
+    * https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/328369
+    * 欠損値代入の方法として回帰を扱う。訓練データを分割して回帰モデルを構築し、各列に1つずつ合計80のモデルが作成される。
+    * 「みんなの考えを投稿してください」↓↓
+    * アプローチ一覧
+        * F_2_nにLGBMを、それ以外に平均を適用したら良いスコアが出たらしい -> [notebook](https://www.kaggle.com/code/abdulravoofshaik/top-3-solution-lgbm-mean/notebook)
+        * ベースとなる考え方 -> [notebook](https://www.kaggle.com/code/sanjaylalwani/tps-jun22-data-impute-lb-0-9?scriptVersionId=97733079)

@@ -146,3 +146,11 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
     * アプローチ一覧
         * F_2_nにLGBMを、それ以外に平均を適用したら良いスコアが出たらしい -> [notebook](https://www.kaggle.com/code/abdulravoofshaik/top-3-solution-lgbm-mean/notebook)
         * ベースとなる考え方 -> [notebook](https://www.kaggle.com/code/sanjaylalwani/tps-jun22-data-impute-lb-0-9?scriptVersionId=97733079)
+
+# 6/24
+* Discussionより
+
+このコンペで提供されているデータセットが膨大なため、ほとんどのNotebookで処理するのに約20000秒かかっている(5~6時間)。プロセスを高速化する方法はあるのか？  
+→ IterativeImputerのestimatorとしてXGBoostを使用する。（tree_methodパラメータを "gpu_hist "にすることを忘れずに。)
+https://xgboost.readthedocs.io/en/stable/gpu/index.html） XGBoostはsklearnのMLアルゴリズムのようにCPUではなくGPUを使うので、非常に高速に動作する。  
+→ コードの実行時間を追跡するマジックセルの`%%time`を使用するのもいい。

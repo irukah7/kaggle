@@ -154,3 +154,9 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
 → IterativeImputerのestimatorとしてXGBoostを使用する。（tree_methodパラメータを "gpu_hist "にすることを忘れずに。)
 https://xgboost.readthedocs.io/en/stable/gpu/index.html） XGBoostはsklearnのMLアルゴリズムのようにCPUではなくGPUを使うので、非常に高速に動作する。  
 → コードの実行時間を追跡するマジックセルの`%%time`を使用するのもいい。
+
+# 　6/25
+* RMSE(平均平方二乗誤差)で評価しているが外れ値があると過剰に適合してしまい、精度を下げるかもしれないので外れ値を除く作業があってもいいかも
+  * Notebookを見ていたところ異常値があって0.5%の外れ値を除外してみたが改善しなかったらしい
+* 提出したNotebookの中で[精度の良いモデル](https://www.kaggle.com/code/hikarumoriya/linear-regression-model?scriptVersionId=99274273) の学習器でearly_stoppingを採用して提出してみる
+  * 学習時間は大幅に減少すると思うが精度がどのくらい変わるのか見てみる

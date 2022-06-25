@@ -115,7 +115,7 @@ f4_columns = [c for c in data.columns if 'F_4' in c]
 
 # 6/16
 ### 昨日の模写コーディング終了
-学習時間が約10~12時間なので長い。optunaでパラメータを決めて一旦jsonファイルを作成する(dump)。dumpしたjsonファイルをfor文で回してトレーニングする。jsonファイルに格納されているoptunaで決めたパラメータを取り出してlgb.trainの引数としてパラメータを割り当てる。  
+学習時間が約6時間なので長い。optunaでパラメータを決めて一旦jsonファイルを作成する(dump)。dumpしたjsonファイルをfor文で回してトレーニングする。jsonファイルに格納されているoptunaで決めたパラメータを取り出してlgb.trainの引数としてパラメータを割り当てる。  
 特徴量分処理するので長い。。  
 
 * もう一つの[線形回帰モデル](https://www.kaggle.com/code/hikarumoriya/linear-regression-model)の結果を
@@ -160,3 +160,8 @@ https://xgboost.readthedocs.io/en/stable/gpu/index.html） XGBoostはsklearnのM
   * Notebookを見ていたところ異常値があって0.5%の外れ値を除外してみたが改善しなかったらしい
 * 提出したNotebookの中で[精度の良いモデル](https://www.kaggle.com/code/hikarumoriya/linear-regression-model?scriptVersionId=99274273) の学習器でearly_stoppingを採用して提出してみる
   * 学習時間は大幅に減少すると思うが精度がどのくらい変わるのか見てみる
+
+-> 0.01点スコアが上がったが、さほど変わりはない。ただ学習時間が半分くらいになっているので良い傾向にあると思われる。(6hour -> 3hour)
+![](2022-06-25-23-11-52.png)
+
+https://www.kaggle.com/code/hikarumoriya/linear-regression-model?scriptVersionId=99274273

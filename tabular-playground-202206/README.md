@@ -165,3 +165,10 @@ https://xgboost.readthedocs.io/en/stable/gpu/index.html） XGBoostはsklearnのM
 ![](2022-06-25-23-11-52.png)
 
 https://www.kaggle.com/code/hikarumoriya/linear-regression-model?scriptVersionId=99274273
+
+# 6/26
+* 歪度が高いものを補正する
+    * 補正したら予測値がズレる気がする。。やめた方がいい
+* Notebook
+    * sklearnのsimpleImpute・ベイズ回帰・多項式回帰・Elastic Net(リッジ回帰、Lasso回帰)で学習させた予測値を合計して4で割った値で算出している
+    * https://www.kaggle.com/code/imnaho/tps-jun22-eda-predict/notebook

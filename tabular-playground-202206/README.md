@@ -172,3 +172,10 @@ https://www.kaggle.com/code/hikarumoriya/linear-regression-model?scriptVersionId
 * Notebook
     * sklearnのsimpleImpute・ベイズ回帰・多項式回帰・Elastic Net(リッジ回帰、Lasso回帰)で学習させた予測値を合計して4で割った値で算出している
     * https://www.kaggle.com/code/imnaho/tps-jun22-eda-predict/notebook
+
+* [現在使用しているNotebook](https://www.kaggle.com/code/hikarumoriya/linear-regression-model?scriptVersionId=99274273)に上記の各回帰を併用して合計して4で割ったものを算出してみる
+
+# 6/27
+
+* (公開されている)Notebook上で学習してoutputしたcsvファイルをダウンロードして、それを元に再学習するのもあり
+* さまざまなモデルで予測した結果を合計して平均を出す方法を試している…

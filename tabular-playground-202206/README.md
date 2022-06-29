@@ -179,3 +179,9 @@ https://www.kaggle.com/code/hikarumoriya/linear-regression-model?scriptVersionId
 
 * (公開されている)Notebook上で学習してoutputしたcsvファイルをダウンロードして、それを元に再学習するのもあり
 * さまざまなモデルで予測した結果を合計して平均を出す方法を試している…
+
+# 6/29
+* 6/27の方法で試してみたところ精度が少し上がった
+    * ![](2022-06-29-23-10-08.png)
+* n_estimator, num_boost_roundを2000回で試していたので4000回にあげてスコアが上がるか試す
+    * 学習中…

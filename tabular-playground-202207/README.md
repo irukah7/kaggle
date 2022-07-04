@@ -5,3 +5,8 @@
 
 ## 評価方法
 提出データは真のクラスタラベルと予測したクラスタラベルの間の[Adjusted Rand Index](https://en.wikipedia.org/wiki/Rand_index)で評価される。この問題では、クラスタの数や学習ラベルは与えられない。
+
+# log
+
+# 7/4
+* データの調査

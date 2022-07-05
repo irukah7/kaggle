@@ -8,5 +8,8 @@
 
 # log
 
-# 7/4
+# 7/4、7/5
 * データの調査
+* Notebooks
+    * わかりやすそうなEDA
+    * https://www.kaggle.com/code/kartushovdanil/tps-jul-22-advanced-2-sol

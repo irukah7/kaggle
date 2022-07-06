@@ -13,3 +13,8 @@
 * Notebooks
     * わかりやすそうなEDA
     * https://www.kaggle.com/code/kartushovdanil/tps-jul-22-advanced-2-sol
+
+* 7/6
+* Notebooks
+    * 丁寧にEDAからクラスタリング・外れ値まで説明されている
+    * https://www.kaggle.com/code/javigallego/outliers-eda-clustering-tutorial

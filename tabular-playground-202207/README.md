@@ -18,3 +18,7 @@
 * Notebooks
     * 丁寧にEDAからクラスタリング・外れ値まで説明されている
     * https://www.kaggle.com/code/javigallego/outliers-eda-clustering-tutorial
+
+# 7/7
+* 7月のTPSは教師なし学習でクラスタリングを使用する方針がオーソドックスになる
+* 今月のTPSはパスする

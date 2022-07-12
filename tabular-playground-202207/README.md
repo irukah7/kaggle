@@ -21,4 +21,7 @@
 
 # 7/7
 * 7月のTPSは教師なし学習でクラスタリングを使用する方針がオーソドックスになる
-* 今月のTPSはパスする
+
+# 7/12
+* BayesianGaussianMixtureを使ってモデリングした良記事があったので参考にしてNotebook作成
+* https://www.kaggle.com/hikarumoriya/tps-jul2022-eda/edit

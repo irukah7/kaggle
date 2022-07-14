@@ -26,4 +26,4 @@
 * BayesianGaussianMixtureを使ってモデリングした良記事があったので参考にしてNotebook作成
 * https://www.kaggle.com/hikarumoriya/tps-jul2022-eda/edit
 * 結果
-    * 
+    * ![](2022-07-14-09-38-13.png)

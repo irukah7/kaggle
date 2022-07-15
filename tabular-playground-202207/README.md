@@ -27,3 +27,8 @@
 * https://www.kaggle.com/hikarumoriya/tps-jul2022-eda/edit
 * 結果
     * ![](2022-07-14-09-38-13.png)
+
+# 7/15
+* Discussion
+    * 特徴量を減らすことでスコアが向上した
+    * https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/334875

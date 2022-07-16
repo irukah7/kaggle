@@ -32,3 +32,15 @@
 * Discussion
     * 特徴量を減らすことでスコアが向上した
     * https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/334875
+
+# 7/16
+* sns.heatmap()
+    * 数値を表示: 引数`annot`
+    * カラーバー表示・非表示: 引数`cbar`
+    * 正方形で表示: 引数`square`
+    * 最大値、最小値、中央値を指定: 引数`vmax`, `vmin`, `center`
+    * 色（カラーマップ）を指定: 引数`cmap`
+    * サイズを指定
+        * sns.heatmap()の引数ではないが一応説明
+        * 生成される画像のサイズはfigsize(インチ)とdpi(インチあたりのドット数)で決定される
+        * plt.figure(figsize=(9, 6))

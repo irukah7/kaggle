@@ -44,3 +44,8 @@
         * sns.heatmap()の引数ではないが一応説明
         * 生成される画像のサイズはfigsize(インチ)とdpi(インチあたりのドット数)で決定される
         * plt.figure(figsize=(9, 6))
+
+# 07/19
+* Notebooks
+    * https://www.kaggle.com/code/ricopue/tps-jul22-clusters-and-lgb
+    * Clusters and LGBの簡単な手法紹介

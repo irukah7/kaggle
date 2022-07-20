@@ -45,7 +45,7 @@
         * 生成される画像のサイズはfigsize(インチ)とdpi(インチあたりのドット数)で決定される
         * plt.figure(figsize=(9, 6))
 
-# 07/19
+# 07/19, 7/20
 * Notebooks
-    * https://www.kaggle.com/code/ricopue/tps-jul22-clusters-and-lgb
-    * Clusters and LGBの簡単な手法紹介
+    * [Clusters and LGBの簡単な手法紹介](https://www.kaggle.com/code/ricopue/tps-jul22-clusters-and-lgb)
+    * [結構難しいこと書いてるけど気になるので見てみた](https://www.kaggle.com/code/samuelcortinhas/poisson-hybrid-mixture-models)

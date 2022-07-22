@@ -50,3 +50,7 @@
     * [Clusters and LGBの簡単な手法紹介](https://www.kaggle.com/code/ricopue/tps-jul22-clusters-and-lgb)
     * [結構難しいこと書いてるけど気になるので見てみた](https://www.kaggle.com/code/samuelcortinhas/poisson-hybrid-mixture-models)
     * [クラスタリングアルゴリズムの紹介](https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/334484)
+
+# 7/22
+* Notebook
+    * [日本語記載のLGBMNotebook](https://www.kaggle.com/code/wasshoiwasshoi/tps-2022-july-gmm-clustering-with-lightgbm)

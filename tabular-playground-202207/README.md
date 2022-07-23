@@ -51,6 +51,8 @@
     * [結構難しいこと書いてるけど気になるので見てみた](https://www.kaggle.com/code/samuelcortinhas/poisson-hybrid-mixture-models)
     * [クラスタリングアルゴリズムの紹介](https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/334484)
 
-# 7/22
+# 7/22、7/23
 * Notebook
     * [日本語記載のLGBMNotebook](https://www.kaggle.com/code/wasshoiwasshoi/tps-2022-july-gmm-clustering-with-lightgbm)
+* Discussion
+    * [GMM/BGMMのn_componentsにGMM:7/BGMM:8が最適な理由](https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/335554)

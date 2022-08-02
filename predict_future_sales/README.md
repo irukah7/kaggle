@@ -20,11 +20,11 @@
     * 欠損値、info情報の確認
     * https://www.kaggle.com/code/hikarumoriya/notebook9100e869d9/edit
 
-# 8/1
+# 8/1、8/2
 * 評価方法
     * RMSE
     * 初めはLGBMでモデル作成する
-* DFは全5つ
+* DFは全6つ
     * items
         * アイテムID
         * アイテムカテゴリID
@@ -35,10 +35,22 @@
     * shops
         * ショップID
         * ショップ名
+    * train
+        * 日付
+        * date_block_num
+        * ショップID
+        * アイテムID
+        * アイテム金額
+        * アイテムカウント数/日
     * test
         * テストID
         * ショップID
         * アイテムID
     * submission
         * サブミットID(アイテムID)
-        * アイテムカウント数/月
+        * アイテムカウント数/月  
+* `pd.merge`で結合
+    * 目的変数と説明変数を決定してLGBMで学習する
+
+trainに対してitems, shops, item_categoriesをjoinして一つのDFにする。
+![](2022-08-02-00-41-58.png)

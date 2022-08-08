@@ -67,3 +67,8 @@ trainに対してitems, shops, item_categoriesをjoinして一つのDFにする�
 * それ以外を説明変数とする
 
 ![](2022-08-03-22-17-21.png)
+
+# 08/08
+* groupbyして取得したitem_cnt_dayとyearmonthを用いてトレンドグラフの作成をした
+* xticksのラベルが全て表示されておらず、うまくいってないが今回は気にしない
+![](2022-08-08-23-11-42.png)

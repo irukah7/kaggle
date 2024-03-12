@@ -11,6 +11,16 @@
   * 開始日：2024年3月
   * 最終提出日：2024年3月31日
 
+* train.csv
+  * Pastry, Z_Scratch, K_Scatch, Stains, Dirtiness, Bumps, Other_Faults
+  * 7つのバイナリターゲットデータ
+* test.csv
+  * 7つのデータそれぞれの確率を予測すること
+
 ## 0310 memo
 一旦コミット
+
+## 0312
+Notebookを読んでコンペの理解を深める：
+https://www.kaggle.com/code/lucamassaron/steel-plate-eda-xgboost-is-all-you-need
 

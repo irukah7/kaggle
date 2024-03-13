@@ -24,3 +24,5 @@
 Notebookを読んでコンペの理解を深める：
 https://www.kaggle.com/code/lucamassaron/steel-plate-eda-xgboost-is-all-you-need
 
+## 0313
+↑引き続きNotebook読み込み＋Notebook作成
